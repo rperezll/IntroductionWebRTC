@@ -9,15 +9,20 @@
     
 </head>
 <body>
+    <h1>Snapshots & Record of you webcam with WebRTC</h1>
     <div class = "booth">
-        <video id="cam" width="400" height ="300" autoplay></video>
+        <button id="btnStopRecording">Stop</button>
+        <button id="grabar">Record</button>
+        <button id="snapshot">Snapshot</button>   
+        <h3>LIVE!</h3>
+        <video id="cam" width="400" height ="300" autoplay controls>
+        </video>
+        <h3>Recording Result</h3>
+        <video id="film" width="400" height ="300" autoplay controls>
+            <source type="video/mp4">
+        </video>
+        <img src="">
     </div>
-    <br>
-    <button id="grabar">stop</button>
-    <button id="grabar">grabar</button>
-    <button id="snapshot">captura</button>
-    <br>
-    <br>
-    <img src="">
 </body>
+<footer>Github -> <a href="https://github.com/rperezll/IntroductionWebRTC">https://github.com/rperezll/IntroductionWebRTC</a> </footer>
 </html>
